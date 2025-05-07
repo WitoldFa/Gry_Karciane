@@ -4,7 +4,7 @@ namespace Gry_Karciane
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();//Historia
         }
 
         private void Wojna_Click(object sender, EventArgs e)
