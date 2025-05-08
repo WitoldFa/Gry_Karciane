@@ -35,7 +35,9 @@ namespace Gry_Karciane
 
         private void Blackjack_Click(object sender, EventArgs e)
         {
-
+            BlackJack blackJack = new BlackJack();
+            blackJack.Show();
+            this.Hide();
         }
 
         private void Historia_Click(object sender, EventArgs e)
