@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Gry_Karciane
 {
-    public partial class Form3 : Form
+    public partial class WojnaUstawienia : Form
     {
         public int WybranaLiczbaGraczy { get; private set; }
         public int WybranaLiczbaTur { get; private set; }
-        public Form3()
+        public WojnaUstawienia()
         {
             InitializeComponent();
         }

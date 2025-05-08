@@ -1,6 +1,6 @@
 ﻿namespace Gry_Karciane
 {
-    partial class Form2
+    partial class WojnaGra
     {
         /// <summary>
         /// Required designer variable.
@@ -61,7 +61,7 @@
             Anuluj.UseVisualStyleBackColor = true;
             Anuluj.Click += Anuluj_Click_1;
             // 
-            // Form2
+            // WojnaGra
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -69,8 +69,8 @@
             Controls.Add(Anuluj);
             Controls.Add(Ustawienia);
             Controls.Add(panel1);
-            Name = "Form2";
-            Text = "Form2";
+            Name = "WojnaGra";
+            Text = "WojnaGra";
             Load += Form2_Load;
             ResumeLayout(false);
         }

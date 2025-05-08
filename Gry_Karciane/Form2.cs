@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Gry_Karciane.Class1;
+using static Gry_Karciane.Gracz;
 using static System.Windows.Forms.DataFormats;
 
 namespace Gry_Karciane
 {
-    public partial class Form2 : Form
+    public partial class WojnaGra : Form
     {
         //Rest
         private Form1 parentForm;
@@ -31,7 +31,7 @@ namespace Gry_Karciane
         private List<Karta> kartyNaStole = new List<Karta>();
         private Dictionary<Gracz, int> kartyWTurze = new Dictionary<Gracz, int>();
 
-        public Form2(Form1 parent)
+        public WojnaGra(Form1 parent)
         {
             InitializeComponent();
             parentForm = parent;
@@ -328,7 +328,7 @@ namespace Gry_Karciane
 
         private void Ustawienia_Click_1(object sender, EventArgs e)
         {
-            Form3 ustawienia = new Form3();
+            WojnaUstawienia ustawienia = new WojnaUstawienia();
             if (ustawienia.ShowDialog() == DialogResult.OK)
             {
                 int liczbaGraczy = ustawienia.WybranaLiczbaGraczy;

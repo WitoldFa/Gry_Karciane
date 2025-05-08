@@ -22,7 +22,7 @@ namespace Gry_Karciane
 
             MessageBox.Show(zasady, "Zasady gry: Wojna", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Hide();
-            Form2 form2 = new Form2(this);
+            WojnaGra form2 = new WojnaGra(this);
             form2.Show();
         }
 

@@ -8,9 +8,9 @@ namespace Gry_Karciane
 {
     class Karta
     {
-        public string Kolor { get; set; }   
-        public string Wartosc { get; set; } 
-        public int WartoscNumeryczna { get; set; } 
+        public string Kolor { get; set; }
+        public string Wartosc { get; set; }
+        public int WartoscNumeryczna { get; set; }
 
         public override string ToString()
         {

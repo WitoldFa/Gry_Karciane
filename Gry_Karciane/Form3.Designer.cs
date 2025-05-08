@@ -1,6 +1,6 @@
 ﻿namespace Gry_Karciane
 {
-    partial class Form3
+    partial class WojnaUstawienia
     {
         /// <summary>
         /// Required designer variable.
@@ -90,7 +90,7 @@
             LiczbaTur.TabIndex = 5;
             LiczbaTur.TextChanged += LiczbaTur_TextChanged;
             // 
-            // Form3
+            // WojnaUstawienia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -101,8 +101,8 @@
             Controls.Add(label1);
             Controls.Add(ANULUJ);
             Controls.Add(OK);
-            Name = "Form3";
-            Text = "Form3";
+            Name = "WojnaUstawienia";
+            Text = "WojnaUstawienia";
             Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();
