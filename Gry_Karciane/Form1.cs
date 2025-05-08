@@ -9,7 +9,21 @@ namespace Gry_Karciane
 
         private void Wojna_Click(object sender, EventArgs e)
         {
+            string zasady = "ZASADY GRY: WOJNA\n\n" +
+                  "– Gra karciana dla 2, 3 lub 4 graczy.\n" +
+                  "– Karty s¹ rozdzielane po równo miêdzy graczy. Kart jest 52, nie uwzglêdniamy Jokerów\n" +
+                  "– W ka¿dej turze gracze wyk³adaj¹ po jednej karcie.\n" +
+                  "– Gracz z najwy¿sz¹ kart¹ wygrywa turê i zbiera wszystkie karty.\n" +
+                  "– W przypadku remisu (WOJNY) – gracze wyk³adaj¹ kolejne karty.\n" +
+                  "– Gra trwa do ustalonego limitu tur.\n\n" +
+                  "WYGRANA:\n" +
+                  "– Wygrywa gracz z najwiêksz¹ iloœci¹ zabranych kart.\n\n" +
+                  "Kliknij OK, aby rozpocz¹æ.";
 
+            MessageBox.Show(zasady, "Zasady gry: Wojna", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
+            Form2 form2 = new Form2(this);
+            form2.Show();
         }
 
         private void Memory_Click(object sender, EventArgs e)
