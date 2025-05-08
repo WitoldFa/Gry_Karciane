@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Gry_Karciane
 {
-    public class Karta
+    public class Karty
     {
         public string Kolor { get; set; } // np. "Kier", "Pik", "Trefl", "Karo"
         public string Wartosc { get; set; } // np. "2", "3", ..., "K", "A"

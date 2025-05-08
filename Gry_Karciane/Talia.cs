@@ -8,18 +8,18 @@ namespace Gry_Karciane
 {
     public class Talia
     {
-        private List<Karta> karty;
+        private List<Karty> karty;
         private static readonly string[] Kolory = { "Kier", "Pik", "Trefl", "Karo" };
         private static readonly string[] Wartosc = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
 
         public Talia()
         {
-            karty = new List<Karta>();
+            karty = new List<Karty>();
             foreach (var kolor in Kolory)
             {
                 foreach (var wartosc in Wartosc)
                 {
-                    karty.Add(new Karta { Kolor = kolor, Wartosc = wartosc });
+                    karty.Add(new Karty { Kolor = kolor, Wartosc = wartosc });
                 }
             }
             Potasuj();
@@ -31,7 +31,7 @@ namespace Gry_Karciane
             karty = karty.OrderBy(x => random.Next()).ToList();
         }
 
-        public Karta RozdajKarte()
+        public Karty RozdajKarte()
         {
             if (karty.Count == 0)
                 throw new InvalidOperationException("Talia jest pusta!");

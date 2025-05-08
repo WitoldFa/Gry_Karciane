@@ -18,13 +18,13 @@ namespace Gry_Karciane
         {
             InitializeComponent();
             talia = new Talia();
-            kartyGracza = new List<Karta>();
-            kartyKrupiera = new List<Karta>();
+            kartyGracza = new List<Karty>();
+            kartyKrupiera = new List<Karty>();
             stanGry = StanGry.OczekiwanieNaStart;
         }
         private Talia talia;
-        private List<Karta> kartyGracza;
-        private List<Karta> kartyKrupiera;
+        private List<Karty> kartyGracza;
+        private List<Karty> kartyKrupiera;
         private int punktyGracza;
         private int punktyKrupiera;
 
