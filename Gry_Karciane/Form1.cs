@@ -14,7 +14,9 @@ namespace Gry_Karciane
 
         private void Memory_Click(object sender, EventArgs e)
         {
-
+            Memory mem = new Memory();
+            mem.Show();
+            this.Hide();
         }
 
         private void Blackjack_Click(object sender, EventArgs e)
